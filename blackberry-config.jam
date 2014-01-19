@@ -84,6 +84,7 @@ using qcc
 # Compiler options
     : <compileflags>"-D__QNX__"
         <compileflags>"-D__QNXNTO__"
+        <compileflags>"-D_LITTLE_ENDIAN"
 
     # Add -D__USE_ISOC99 for rounding control mechanism (boost/numeric/interval/hw_rounding.hpp)
         <compileflags>"-D__USE_ISOC99"
