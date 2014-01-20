@@ -62,6 +62,8 @@ using std::va_list;
 // to use vsnprintf 
 #if defined(__QNXNTO__) 
 #  include <stdio.h> 
+#  include <stdarg.h>
+using std::va_list;
 #endif
 
 #if defined(_WIN32) && !defined(BOOST_DISABLE_WIN32) &&                  \

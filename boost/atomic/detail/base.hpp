@@ -13,6 +13,9 @@
 
 #include <string.h>
 
+#if _HAS_DINKUM_CLIB
+#include <stddef.h>
+#endif
 #include <cstddef>
 #include <boost/cstdint.hpp>
 #include <boost/atomic/detail/config.hpp>

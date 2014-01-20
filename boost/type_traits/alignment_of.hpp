@@ -10,6 +10,9 @@
 #define BOOST_TT_ALIGNMENT_OF_HPP_INCLUDED
 
 #include <boost/config.hpp>
+#ifdef _HAS_DINKUM_CLIB
+#include <stddef.h>
+#endif
 #include <cstddef>
 
 #include <boost/type_traits/intrinsics.hpp>

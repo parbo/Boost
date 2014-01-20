@@ -46,6 +46,7 @@ public:
         const char * e1 = NULL,
         const char * e2 = NULL
     );
+    virtual ~xml_archive_exception() throw();
 };
 
 }// namespace archive
